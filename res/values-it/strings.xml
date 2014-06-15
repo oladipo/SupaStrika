@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SupaStrikas</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="hello_world">Ciao mondo!</string>
+    <string name="OpenGL">Informazioni su OpenGL</string>
+    <string name="title_activity_supa_striker_splash_screen">SupaStrikas</string>
+    <string name="title_activity_about">Circa</string>
+	<string name="button_start">Inizio</string>
+	<string name="about_text">Questa applicazione visualizza un\'immagine quando viene rilevato una copertina comica SupaStrikas, l\'immagine è aumentata in cima al fumetto. &lt;br /&gt; &lt;br /&gt; Per utilizzare questa applicazione: &lt;br /&gt; 1. Acquistare un SupaStrikas © fumetti (numero # 110) in qualsiasi signor Biggs presa &lt;br /&gt; &lt;br /&gt; 2. Punta il tuo dispositivo alla pagina di copertina del libro di fumetti &lt;br /&gt; &lt;br /&gt; 3. Vedere l\'immagine aumentata sopra il fumetto &lt;br /&gt; &lt;br /&gt;</string>
+	<string name="about_title">Circa</string>
+	<string name="activity_splash_title">TechnoVision</string>
+    <string name="activity_splash_subtitle">Vuforia AR</string>
+        <string name="content_desc_supastrika_logo">Vuforia Logo</string>
+        <string name="content_desc_tvc_logo">tvc logo</string>
+</resources>

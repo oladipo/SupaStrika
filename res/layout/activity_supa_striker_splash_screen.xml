@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    tools:context=".SupaStrikerSplashScreen" >
+
+    <TextView
+        android:id="@+id/splash_screen_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/technovision_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/activity_splash_subtitle"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/splash_subtitle" />
+
+    <ImageView
+        android:id="@+id/technovision_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/supastrika_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/content_desc_tvc_logo"
+        android:scaleType="fitEnd"
+        android:src="@drawable/blueprint_tvc" />
+
+    <ImageView
+        android:id="@+id/supastrika_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="149dp"
+        android:contentDescription="@string/content_desc_supastrika_logo"
+        android:scaleType="fitEnd"
+        android:src="@drawable/blueprint_supastrika" />
+
+</RelativeLayout>
